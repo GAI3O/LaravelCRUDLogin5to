@@ -5,16 +5,10 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
+                <div class="card-header">{{ __('Meme Ramdom') }}</div>
 
                 <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    {{ __('You are logged in!') }}
+                <img class="container" src="https://www.softzone.es/app/uploads-softzone.es/2021/11/programar-variables.jpg?x=480&quality=20" alt="">
                 </div>
             </div>
         </div>
